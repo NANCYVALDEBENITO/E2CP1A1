@@ -5,6 +5,14 @@
 	<title></title>
 	<style type="text/css">
 
+		#bandera{
+		border: 5px black solid; 
+		position: relative;
+		height: 220px;
+		width: 350px;
+
+		}
+		/* España */
 		.box_red {
 		background-color: red;
 		height: 60px;
@@ -18,6 +26,7 @@
 		box-sizing: border-box;
 
 		}
+		/* Esmiratos Arabes */
 		.box_vertical {
 		background-color: red;
 		width: 80px;
@@ -34,6 +43,7 @@
 		position: absolute;
 
 		}
+		/* Japon */
 		.box_japon{
 		width:350px ;
 		height:220px;
@@ -41,20 +51,31 @@
 		background-color: white;
 
 		}
-		#arabes{
-			border: 5px black solid; 
-			position: relative;
-			height: 220px;
-			width: 350px;
+
+		.circulo {
+	     width: 100px;
+	     height: 100px;
+	     -moz-border-radius: 50%;
+	     -webkit-border-radius: 50%;
+	     border-radius: 50%;
+	     background: red;
+	     position:absolute;
+	     box-sizing: border-box;
+		 margin-left: 35%;
+		 margin-right: 35%;
+		 margin-top: 15%;
+		 margin-bottom: 15%;
 		}
+
+		
 
 
 	</style>
 </head>
 <body>
-	<div style="float: left; padding-left: 30%; ">
-
-		<div style="border: 5px black solid";>
+	<div style="float: left; padding-left: 20%; ">
+		
+		<div id="bandera";>
 			<div class="box_red"></div>
 			<div class="box_yellow"></div>
 			<div class="box_red"></div>
@@ -62,9 +83,9 @@
 		<br>
 		<p> España </p>
 
-
 		<br>
-		<div id="arabes" >
+
+		<div id="bandera" >
 			<div class="box_vertical;" style="left: 0;"></div>
 			<div class="box_horizontal" style="background-color :green; top:0;"></div>
 			<div class="box_horizontal" style="background-color:white; top:73.33px"></div>
@@ -72,9 +93,12 @@
 		</div>
 		<br>
 		<p> Esmiratos Árabes </p>
+
 	</div>
-	<div style="float: right; padding-right: 30%">
-		<div style="border: 5px black solid";>
+
+	<div style="float: right; padding-right: 20%">
+	
+		<div id="bandera";>
 			<div class="box_red"></div>
 			<div class="box_yellow"></div>
 			<div class="box_red"></div>
@@ -82,10 +106,11 @@
 		<br>
 		<p> Dinamarca </p>
 		<br>
-		<div style="border: 5px black solid";>
-			<div class="box_japon"></div>
-			
-			
+	
+		<div id="bandera">
+			<div class="box_japon">
+				<div class="circulo"></div>
+			</div>
 		</div>
 		<br>
 		<p> Japón </p>
