@@ -34,6 +34,7 @@
 		box-sizing: border-box;
 		/*float: left;*/
 		position: absolute;
+		
 
 		}
 		.box_horizontal{
@@ -67,6 +68,23 @@
 		 margin-bottom: 15%;
 		}
 
+		/* Dinamarca */
+		/* 350 220*/
+		.box_large{
+		width:290px ;
+		height:100px;
+		box-sizing: border-box;
+		background-color: red;
+		position: absolute;
+		}
+		.box_short{
+		width:40px ;
+		height:100px ;
+		background-color: red;
+		box-sizing: border-box;
+		position: absolute;	
+		}
+
 		
 
 
@@ -86,10 +104,10 @@
 		<br>
 
 		<div id="bandera" >
-			<div class="box_vertical;" style="left: 0;"></div>
-			<div class="box_horizontal" style="background-color :green; top:0;"></div>
-			<div class="box_horizontal" style="background-color:white; top:73.33px"></div>
-			<div class="box_horizontal" style="background-color:black; bottom:0;"></div>
+			<div class="box_vertical" ></div>
+			<div class="box_horizontal" style="background-color:green; top:0; left:80px;"></div>
+			<div class="box_horizontal" style="background-color:white; top:73.33px; left: 80px;"></div>
+			<div class="box_horizontal" style="background-color:black; bottom:0; left:80px;"></div>
 		</div>
 		<br>
 		<p> Esmiratos Árabes </p>
@@ -99,9 +117,10 @@
 	<div style="float: right; padding-right: 20%">
 	
 		<div id="bandera";>
-			<div class="box_red"></div>
-			<div class="box_yellow"></div>
-			<div class="box_red"></div>
+			<div class="box_short" style="top:0; left: 0;"></div>
+			<div class="box_short" style="bottom: 0; left: 0;"></div>
+			<div class="box_large" style="top:0; right: 0;"></div>
+			<div class="box_large" style="bottom: 0; right: 0;"></div>
 		</div>
 		<br>
 		<p> Dinamarca </p>
